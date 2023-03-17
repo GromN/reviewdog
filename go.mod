@@ -12,7 +12,7 @@ require (
 	github.com/bradleyfalzon/ghinstallation/v2 v2.1.0
 	github.com/golang/protobuf v1.5.2
 	github.com/google/go-cmp v0.5.9
-	github.com/google/go-github/v49 v49.1.0
+	github.com/google/go-github/v50 v50.2.0
 	github.com/haya14busa/go-actions-toolkit v0.0.0-20200105081403-ca0307860f01
 	github.com/haya14busa/secretbox v0.0.0-20180525171038-07c7ecf409f5
 	github.com/justinas/nosurf v1.1.1
@@ -27,11 +27,13 @@ require (
 	github.com/xanzy/go-gitlab v0.79.1
 	go.opencensus.io v0.24.0
 	golang.org/x/build v0.0.0-20230202190423-357881e10382
-	golang.org/x/oauth2 v0.4.0
+	golang.org/x/oauth2 v0.6.0
 	golang.org/x/sync v0.1.0
 	google.golang.org/protobuf v1.28.1
 	gopkg.in/yaml.v2 v2.4.0
 )
+
+require github.com/google/go-github/v49 v49.1.0
 
 require (
 	cloud.google.com/go/compute v1.14.0 // indirect
@@ -50,10 +52,10 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/prometheus/prometheus v2.5.0+incompatible // indirect
 	github.com/stretchr/objx v0.5.0 // indirect
-	golang.org/x/crypto v0.1.0 // indirect
-	golang.org/x/net v0.5.0 // indirect
-	golang.org/x/sys v0.4.0 // indirect
-	golang.org/x/text v0.6.0 // indirect
+	golang.org/x/crypto v0.7.0 // indirect
+	golang.org/x/net v0.8.0 // indirect
+	golang.org/x/sys v0.6.0 // indirect
+	golang.org/x/text v0.8.0 // indirect
 	golang.org/x/time v0.3.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
 	google.golang.org/api v0.103.0 // indirect
